@@ -1,0 +1,245 @@
+body{
+    margin: 0;
+    font-family: 'Roboto', sans-serif; font-weight: 400;
+    
+}
+.alinear{
+    margin: auto;
+    max-width: 900px;
+}
+
+.arriba a{
+    text-decoration: none;
+    color: white
+    
+}
+.arriba {
+    background: #1a1a1a;
+    color: white;
+    height: 400px;
+}
+.menu a{
+    padding-top: 5px;
+    margin-left: 20px;
+   
+}
+.menu a:hover{
+    
+    border-top: 3px solid white;
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 6px;
+}
+
+.btn{
+    background: rgba(255,255,255,0.2);
+    padding: 8px 40px;
+    border: 0;
+    color: white;
+    border-radius: 5px;
+    font-size: 16px;
+    
+}
+.btn:hover {
+    font-weight: 700;
+    background: rgba(255,255,255,0.5)
+        
+}
+
+
+.menu-a {
+    margin-right: 50px;
+}
+
+.menu .borde{
+    border: 1px solid white;
+    padding: 10px;
+}
+.menu .borde:hover{
+    border: 2px solid white;
+}
+.portada{
+    text-align: center;
+}
+.portada h1{
+    font-family: "Roboto", sans-serif; font-weight: 700;
+    font-size: 70px;
+    margin-bottom: 0;
+    color: #fefefe;
+}
+.portada p{
+    margin-bottom: 50px;
+    font-size: 18px;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+.redes{
+    color: white;
+    font-weight: 700;
+    font-size: 24px;
+    background: #1e60a9;
+    text-align: center;
+    max-width: 100%;
+    height: 100px;
+    padding-top: 20px;
+        
+        }
+.redes p {
+    margin-top: 0;
+    margin-bottom: 15px;
+    
+}
+.redes img {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.caracteristicas{
+    padding-top: 50px;
+    display: flex;
+    text-align: center;
+     justify-content: space-around;
+   
+        
+}
+.caracteristicas div{
+    width: 200px;
+     align-items: center;
+}
+.caracteristicas p{
+    display: flex;
+     align-items: center;
+    color: #7f7f7f;
+}
+
+.sep{
+    border-color: #999999;
+}
+.suscripciones{
+   text-align: center;
+}
+.suscripciones h2 {
+    font-size: 40px;
+    margin-bottom: 0;
+}
+.suscripciones p{
+    font-size: 20px;
+    color: #7f7f7f;
+    margin-top: 0;
+}
+.imgapps{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 50px;
+}
+.imgapps img{
+    border-radius: 50%;
+    padding: 30px;
+    background: #e5e5e5;
+}
+
+@media screen and (max-width:800px){
+
+    .portada h1{
+        font-size: 50px;
+        
+    }
+    .portada p{
+        font-size: 15px;
+        margin-bottom: 25px;
+    }
+    .arriba {
+        height: auto;
+    }
+    .btn{
+        margin-bottom: 20px;
+    }
+    .redes {
+        font-size:  18px;
+        height: 90px;
+    }
+    .sep{
+        width: 70%;
+        margin-top: 20px;
+    }
+    .suscripciones h2{
+        font-size: 30px;
+        
+    }
+    .suscripciones p{
+        font-size: 14px;;
+        
+    }
+    .caracteristicas p{
+        font-size: 14px;
+    }
+    .caracteristicas h2{
+        font-size: 20px;
+    }
+    .imgapps img{
+        width: 90px;
+        height: 90px;
+        padding: 15px;
+    }
+}
+
+@media screen and (max-width:625px){
+    .menu{
+        display: block;
+        text-align: center;
+        margin: 0 auto
+    }
+    .menu img{
+        margin-bottom: 30px;
+    }
+    
+    
+}
+@media screen and (max-width:528px){
+    
+        .menu a{
+        display: block;
+            margin: 0 auto;
+            padding-bottom: 10px;
+            padding-top: 10px;
+            border-bottom: 1px solid white;
+            font-size: 14px;
+           
+    }
+    .menu a:hover{
+         border: 0;
+        
+    }
+    .menu-a{
+        margin: 0 auto;
+        width: 50%;
+    }
+    .portada h1{
+        font-size: 40px;
+    }
+    .portada p{
+        padding-left: 60px;
+        padding-right: 60px;
+        font-size: 14px;
+        
+    }
+    .redes {
+        height: 120px;
+    }
+    .caracteristicas {
+        padding: 0 50px 0 50px;
+        display: block;
+        margin: 0 auto;
+            
+    }
+    .caracteristicas div{
+        margin: 0 auto;
+    }
+    .imgapps {
+        display: block;
+    }
+}
